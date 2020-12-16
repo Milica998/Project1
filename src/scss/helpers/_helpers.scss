@@ -1,0 +1,23 @@
+%clearfix {
+    &::before,
+    &::after {
+        content: '';
+        display: table;
+    }
+    &::after {
+        clear: both;
+    }
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1366px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+%bgImg {
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
