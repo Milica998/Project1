@@ -1,0 +1,40 @@
+//HEADER
+.header {
+    position: relative;
+    display: block;
+    .wrapper {
+        @extend %clearfix;
+    }
+}
+.logo {
+    display: block;
+    float: left;
+}
+.img-logo {
+    height:35px;
+}
+.navigation {
+    display: block;
+    float: right;
+}
+.nav-list {
+    font-size: 0;
+    //background-color: transparent;
+}
+.nav-item {
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-link {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.second-part-of-header {
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 200px;
+}
