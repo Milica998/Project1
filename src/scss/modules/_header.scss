@@ -1,7 +1,11 @@
 //HEADER
 .header {
-    position: relative;
-    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 13;
+    padding: 36px 0 22px;
     .wrapper {
         @extend %clearfix;
     }
@@ -9,6 +13,10 @@
 .logo {
     display: block;
     float: left;
+    margin-left: 74px;
+    &:hover {
+        opacity: 0.8;
+    }
 }
 .img-logo {
     height:35px;
@@ -19,22 +27,22 @@
 }
 .nav-list {
     font-size: 0;
-    //background-color: transparent;
+    background-color: transparent;
 }
 .nav-item {
     display: inline-block;
     vertical-align: middle;
+    padding: 2px 15px 8px 27px;
 }
 .nav-link {
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 1px;
-    line-height: 25px;
+    line-height: 24px;
+    color: $EarieBlack;
+    font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
-}
-.second-part-of-header {
-    position: absolute;
-    display: block;
-    top: 50px;
-    left: 200px;
+    &:hover {
+        color: $RobinsEggBlue;
+    }
 }

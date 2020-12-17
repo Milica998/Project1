@@ -1,0 +1,50 @@
+//BANNER
+.banner {
+    @extend %bgImg;
+    position: relative;
+    min-height: 574px;
+    max-width: 100%;
+}
+.banner-position {
+    padding-left: 12px;
+    position: absolute;
+    left: 756px;
+    top: 130px;
+    margin: 0 auto;
+}
+.h1-title {
+    font-size: 38px;
+    color: $BlackDar;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    line-height: 48px;
+    font-weight: 600;
+}
+.p1-paragraph {
+    padding-top: 24px;
+    font-size: 18px;
+    color: $DarkGrey;
+    line-height: 28px;
+    max-width: 431px;
+}
+.link-butt {
+    margin-left: 12px;
+    position: absolute;
+    display: block;
+    max-width: 180px;
+    //min-height: 60px;
+    background-color: $RobinsEggBlue;
+    left: 0;
+    right: 0;
+    margin-top: 33px;
+    text-align: center;
+}
+.link-text {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 54px;
+    color: $White;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+}
