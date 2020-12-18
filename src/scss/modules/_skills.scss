@@ -1,0 +1,48 @@
+.skills {
+    @extend %bgImg;
+    position: relative;
+    min-height: 571px;
+    max-width: 100%;
+}
+.skills-container {
+    padding: 147px 78px;
+}
+.h2-skills {
+    text-align: left;
+}
+.skills-percent {
+    position: relative;
+    margin-top: 14px;
+}
+.span-skills {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: $Black;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.grey-rectangle {
+    position: relative;
+    display: block;
+    background-color: $GreyShade;
+    min-height: 3px;
+    max-width: 500px;
+    margin-top: 8px;
+}
+.blue-rectangle {
+    position: absolute;
+    display: block;
+    background-color: red;
+    top: 0;
+    left: 0;
+    width: 67%;
+    height: 2px;
+    z-index: 100;
+    &.blue-rectangle-develop {
+        width: 85%;
+    }
+    &.blue-rectangle-marketing {
+        width: 56%;
+    }
+}
