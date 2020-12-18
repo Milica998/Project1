@@ -23,7 +23,9 @@
 }
 .nav-toggle {
     display: none;
-    position: relative;
+    position: absolute;
+    top: 30px;
+    right: 20px;
     width: 40px;
     height: 40px;
     z-index: 110;
@@ -82,20 +84,19 @@
 
 @include breakpoint (tablet) {
     .nav-toggle {
-        float: right;
+        //float: right;
         display: block;
     }
     .navigation {
-        display: fixed;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         width: 70%;
         height: 100%;
-        background-color: transparent;
+        background-color: $White;
         z-index: 100;
         transform: translateX(100%);
-        transition: 0.4s ease-in-out;
+        transition: 0.4s ease;
     }
     .nav-list {
         background-color: none;
@@ -127,18 +128,20 @@
 }
 
 @include breakpoint (phone) {
+    .logo {
+        margin-left: 19px;
+    }
     .nav-toggle {
         float: right;
         display: block;
     }
     .navigation {
-        display: fixed;
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         width: 70%;
         height: 100%;
-        background-color: transparent;
+        background-color:  $White;
         z-index: 100;
         transform: translateX(100%);
         transition: 0.4s ease;

@@ -54,12 +54,32 @@
 }
 @include breakpoint (tablet) {
     .banner-position {
-        left: 300px;
+        position: relative;
+        left: 0;
+        text-align: center;
+    }
+    .p1-paragraph {
+        padding: 0 0 20px 116px;
+        max-width: 561px;
+    }
+    .link-butt {
+        margin: 0 auto;
     }
 }
 
 @include breakpoint (phone) {
     .banner-position {
         left: 0;
+        text-align: center;
+    }
+    .h1-title {
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+    .p1-paragraph {
+        padding-bottom: 15px;
+    }
+    .link-butt {
+        margin: 0 auto;
     }
 }
