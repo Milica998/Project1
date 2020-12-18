@@ -38,6 +38,10 @@
     right: 0;
     margin-top: 33px;
     text-align: center;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.8;
+    }
 }
 .link-text {
     font-size: 12px;
