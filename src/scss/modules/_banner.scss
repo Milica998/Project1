@@ -2,14 +2,15 @@
 .banner {
     @extend %bgImg;
     position: relative;
-    min-height: 574px;
+    min-height: 670px;
     max-width: 100%;
+    padding-bottom: 15px;
 }
 .banner-position {
     padding-left: 12px;
     position: absolute;
     left: 756px;
-    top: 130px;
+    top: 227px;
     margin: 0 auto;
 }
 .h1-title {
@@ -25,7 +26,8 @@
     font-size: 18px;
     color: $DarkGrey;
     line-height: 28px;
-    max-width: 431px;
+    letter-spacing: 1px;
+    max-width: 486px;
 }
 .link-butt {
     margin-left: 12px;
