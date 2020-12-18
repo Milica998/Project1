@@ -1,11 +1,11 @@
-//HEADER
+//Header
 .header {
-    position: absolute;
+    position: fixed;
+    padding: 36px 0 22px;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 13;
-    padding: 36px 0 22px;
     .wrapper {
         @extend %clearfix;
     }
@@ -20,6 +20,39 @@
 }
 .img-logo {
     height:35px;
+}
+.nav-toggle {
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    z-index: 110;
+    border: 1px solid $RobinsEggBlue;
+    background-color: transparent;
+}
+.nav-toggle-icon {
+    position: absolute;
+    top: 18px;
+    left: 4px;
+    width: 30px;
+    height: 3px;
+    background-color:$RobinsEggBlue ;
+    &::before,
+    &::after  {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 30px;
+        height: 3px;
+        background-color: $RobinsEggBlue ;
+    }
+    &::before {
+        top: 9px;
+    }
+    &::after {
+        top: -9px;
+    }
+    
 }
 .navigation {
     display: block;
@@ -44,5 +77,97 @@
     text-decoration: none;
     &:hover {
         color: $RobinsEggBlue;
+    }
+}
+
+@include breakpoint (tablet) {
+    .nav-toggle {
+        float: right;
+        display: block;
+    }
+    .navigation {
+        display: fixed;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 70%;
+        height: 100%;
+        background-color: transparent;
+        z-index: 100;
+        transform: translateX(100%);
+        transition: 0.4s ease-in-out;
+    }
+    .nav-list {
+        background-color: none;
+        padding-top: 100px;
+        padding-left: 30px;
+        text-align: center;
+    }
+    .nav-item {
+        display: block;
+    }
+    .nav-toggle-active {
+        .nav-toggle-icon {
+            background-color: transparent;
+            &::before {
+                top: 0;
+                transform: rotate(135deg);
+                background-color: $RobinsEggBlue ;
+            }
+            &::after {
+                top: 0;
+                transform: rotate(-135deg);
+                background-color: $RobinsEggBlue ;
+            }
+        }
+    }
+    .nav-open {
+        transform: translateX(0);
+    }
+}
+
+@include breakpoint (phone) {
+    .nav-toggle {
+        float: right;
+        display: block;
+    }
+    .navigation {
+        display: fixed;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 70%;
+        height: 100%;
+        background-color: transparent;
+        z-index: 100;
+        transform: translateX(100%);
+        transition: 0.4s ease;
+    }
+    .nav-list {
+        background-color: none;
+        padding-top: 100px;
+        padding-left: 30px;
+        text-align: center;
+    }
+    .nav-item {
+        display: block;
+    }
+    .nav-toggle-active {
+        .nav-toggle-icon {
+            background-color: transparent;
+            &::before {
+                top: 0;
+                transform: rotate(135deg);
+                background-color: $RobinsEggBlue ;
+            }
+            &::after {
+                top: 0;
+                transform: rotate(-135deg);
+                background-color: $RobinsEggBlue ;
+            }
+        }
+    }
+    .nav-open {
+        transform: translateX(0);
     }
 }

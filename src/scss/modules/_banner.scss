@@ -52,3 +52,14 @@
     text-transform: uppercase;
     text-decoration: none;
 }
+@include breakpoint (tablet) {
+    .banner-position {
+        left: 300px;
+    }
+}
+
+@include breakpoint (phone) {
+    .banner-position {
+        left: 0;
+    }
+}
