@@ -1,0 +1,111 @@
+.section-track {
+    min-height: 239px;
+    width: 100%;
+    background-color: $RobinsEggBlue;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 93px 0 0 18px ;
+    .icon-icon-clock,
+    .icon-icon-heart,
+    .icon-icon-star,
+    .icon-icon-portfolio {
+        flex: 1 1 50%;
+        max-width: 50%;
+    }
+}
+.cards-item {
+    flex: 1 1 25%;
+    max-width: 25%;
+    padding-top: 6px;
+    .cards-holder {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cards-item-inner {
+        flex: 1 1 50%;
+        max-width: 50%;
+        .icon-icon-clock,
+        .icon-icon-heart,
+        .icon-icon-star,
+        .icon-icon-portfolio  {
+            fill: $White;
+            height: 39px;
+            padding-left: 64px;
+        }
+    }
+}
+.cards-item-info {
+    margin-left: -29px;
+}
+.cards-item-info-number,
+.cards-item-info-text {
+    font-size: 18px;
+    letter-spacing: 1;
+    color: $White;
+    text-transform: uppercase;
+    line-height: 13px;
+    .cards-item-info-text {
+        font-size: 12px;
+        line-height: 38px;  
+    }
+}
+
+@include breakpoint (tablet) {
+    .cards {
+        padding: 47px 16px;
+    }
+    .cards-item {
+        flex: 1 1 50%;
+        max-width: 50%;
+        margin-bottom: 20px;
+        .cards-holder {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .cards-item-inner {
+            flex: 1 1 50%;
+            max-width: 50%;
+            .icon-icon-clock,
+            .icon-icon-heart,
+            .icon-icon-star,
+            .icon-icon-portfolio  {
+                fill: $White;
+                height: 39px;
+            }
+        }
+    }
+}
+
+@include breakpoint (phone) {
+    .cards {
+        padding: 47px 0;
+    }
+    .section-track {
+        padding: 46px 10px;
+    }
+    .cards-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        .cards-holder {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .cards-item-inner {
+            flex: 1 1 100%;
+            max-width: wrap;
+            .icon-icon-clock,
+            .icon-icon-heart,
+            .icon-icon-star,
+            .icon-icon-portfolio  {
+                fill: $White;
+                height: 39px;
+            }
+        }
+    }
+    .cards-item-info {
+        margin-left: 0;
+    }
+}

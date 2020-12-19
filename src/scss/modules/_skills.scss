@@ -1,7 +1,7 @@
 .skills {
     @extend %bgImg;
     position: relative;
-    min-height: 571px;
+    min-height: 569px;
     max-width: 100%;
 }
 .skills-container {
@@ -38,7 +38,7 @@
     left: 0;
     width: 67%;
     height: 2px;
-    z-index: 100;
+    z-index: 10;
     &.blue-rectangle-develop {
         width: 85%;
     }

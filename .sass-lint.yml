@@ -43,7 +43,7 @@ rules:
   force-pseudo-nesting: 1
 
   # Name Formats
-  function-name-format: 1
+  function-name-format: 0
   mixin-name-format: 1
   placeholder-name-format: 1
   variable-name-format:
