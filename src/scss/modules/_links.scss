@@ -29,6 +29,9 @@
     min-height: 50px;
     background-color: $WhiteSmoke;
     text-align: center;
+    &:hover {
+        opacity: 0.4;
+    }
 }
 .links-load {
     font-size: 12px;
