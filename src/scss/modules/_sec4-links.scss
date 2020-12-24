@@ -31,3 +31,13 @@
     color: $EarieBlack;
     text-transform: uppercase;
 }
+@include breakpoint (tablet) {
+    .sec4-display {
+        padding-top: 30px;
+    }
+}
+@include breakpoint (phone) {
+    .sec4-display {
+        padding-top: 20px;
+    }
+}

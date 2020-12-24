@@ -1,0 +1,19 @@
+.sec-swiper {
+    display: block;
+    position: relative;
+   // min-height: 500px;
+    width: 100%;
+    background-color: $RobinsEggBlue;
+}
+.sec-swiper-information,
+.sec-swiper-span{
+    display: block;
+    font-size: 30px;
+    color: $White;
+    line-height: 36px;
+    text-align: center;
+    .sec-swiper-span {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
