@@ -1,0 +1,33 @@
+.sec4-links {
+    position: relative;
+    min-height: 535px;
+    width: 100%;
+    background-color: chartreuse;
+}
+.sec4-display {
+    text-align: center;
+    margin: 0 28px;
+    padding-top: 140px;
+}
+.sec4-links-item {
+    padding: 15px 20px;
+}
+.icon-icon-diamond,
+.icon-icon-archery,
+.icon-icon-mobile-phone,
+.icon-icon-console,
+.icon-icon-airplane,
+.icon-icon-star,
+.icon-icon-magic-stick,
+.icon-icon-paint-bucket {
+    color: $BlackDar;
+    max-height: 60px;
+}
+.h3-subtitle {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: $EarieBlack;
+    text-transform: uppercase;
+}
