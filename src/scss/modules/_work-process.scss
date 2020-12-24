@@ -15,3 +15,25 @@
     right: 0;
     text-align: center;
 }
+.video {
+    min-width:1180px;
+    min-height:570px;
+}
+@include breakpoint (tablet) { 
+    .work-process {
+        min-height: 750px;
+    }
+    .video {
+        min-width: 699px;
+        min-height: 365px;
+    }
+}
+@include breakpoint (phone) { 
+    .work-process {
+        min-height: 650px;
+    }
+    .video {
+        min-width: 360px;
+        min-height: 222px;
+    }
+}

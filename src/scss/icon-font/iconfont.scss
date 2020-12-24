@@ -3,11 +3,11 @@ iconfont Webfont
 */
 @font-face {
 	font-family: 'iconfont';
-	src: url('../fonts/iconfont.eot?1608387657650');
-	src: url('../fonts/iconfont.eot?#iefix-1608387657650') format('embedded-opentype'),
-		url('../fonts/iconfont.woff2?1608387657650') format('woff2'),
-		url('../fonts/iconfont.woff?1608387657650') format('woff'),
-		url('../fonts/iconfont.ttf?1608387657650') format('truetype');
+	src: url('../fonts/iconfont.eot?1608812225639');
+	src: url('../fonts/iconfont.eot?#iefix-1608812225639') format('embedded-opentype'),
+		url('../fonts/iconfont.woff2?1608812225639') format('woff2'),
+		url('../fonts/iconfont.woff?1608812225639') format('woff'),
+		url('../fonts/iconfont.ttf?1608812225639') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -33,18 +33,46 @@ iconfont Webfont
 Glyphs list
 */
 
-.icon-icon-clock::before {
+.icon-icon-airplane::before {
 	content: '\ea01';
 }
 
-.icon-icon-heart::before {
+.icon-icon-archery::before {
 	content: '\ea02';
 }
 
-.icon-icon-portfolio::before {
+.icon-icon-clock::before {
 	content: '\ea03';
 }
 
-.icon-icon-star::before {
+.icon-icon-console::before {
 	content: '\ea04';
+}
+
+.icon-icon-diamond::before {
+	content: '\ea05';
+}
+
+.icon-icon-heart::before {
+	content: '\ea06';
+}
+
+.icon-icon-magic-stick::before {
+	content: '\ea07';
+}
+
+.icon-icon-mobile-phone::before {
+	content: '\ea08';
+}
+
+.icon-icon-paint-bucket::before {
+	content: '\ea09';
+}
+
+.icon-icon-portfolio::before {
+	content: '\ea0a';
+}
+
+.icon-icon-star::before {
+	content: '\ea0b';
 }
