@@ -10,7 +10,11 @@
     .wrapper {
         @extend %clearfix;
     }
+    &.sticky {
+        background-color: $White;
+      }
 }
+
 .logo {
     display: block;
     float: left;
