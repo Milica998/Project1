@@ -31,7 +31,7 @@
         .icon-icon-star,
         .icon-icon-portfolio  {
             color: $White;
-            min-height: 39px;
+            font-size: 40px;
             padding-left: 64px;
         }
     }
@@ -42,11 +42,11 @@
 .cards-item-info-number,
 .cards-item-info-text {
     font-size: 18px;
-    letter-spacing: 1;
+    letter-spacing: 1px;
     color: $White;
     text-transform: uppercase;
     line-height: 13px;
-    .cards-item-info-text {
+    &.cards-item-info-text {
         font-size: 12px;
         line-height: 38px;  
     }

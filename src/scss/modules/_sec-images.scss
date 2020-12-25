@@ -1,0 +1,29 @@
+.sec-images {
+    position: relative;
+    min-height: 300px;
+    width: 100%;
+}
+.sec-images-container {
+    position: relative;
+    font-size: 0;
+    padding: 10px
+}
+.sec-images-item {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%
+}
+.images {
+    @extend %bgImg;
+    padding-bottom: 100%;
+}
+@include breakpoint (tablet) {
+    .sec-images-item {
+        width: 50%;
+    }
+}
+@include breakpoint (phone) { 
+    .sec-images-item {
+        width: 100%;
+    }
+}

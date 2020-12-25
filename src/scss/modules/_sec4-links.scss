@@ -2,12 +2,12 @@
     position: relative;
     min-height: 535px;
     width: 100%;
-    background-color: chartreuse;
+    background-color: $WhiteSmoke;
 }
 .sec4-display {
     text-align: center;
-    margin: 0 28px;
-    padding-top: 140px;
+    margin: 0 69px;
+    padding-top: 94px;
 }
 .sec4-links-item {
     padding: 15px 20px;
@@ -21,7 +21,7 @@
 .icon-icon-magic-stick,
 .icon-icon-paint-bucket {
     color: $BlackDar;
-    max-height: 60px;
+    font-size: 44px;
 }
 .h3-subtitle {
     display: block;
@@ -30,6 +30,7 @@
     line-height: 30px;
     color: $EarieBlack;
     text-transform: uppercase;
+    padding-top: 12px;
 }
 @include breakpoint (tablet) {
     .sec4-display {
