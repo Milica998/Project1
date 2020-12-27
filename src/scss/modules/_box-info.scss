@@ -1,32 +1,44 @@
 .box-info {
     background-color: $WhiteSmoke;
+    min-height: 752px;
+}
+.box-info-content {
+    padding: 82px 0 8px;
 }
 .box-info-form,
 .box-info-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    &.box-info-form {
+        margin-bottom: 17px;
+    }
 }
 .form-wrap {
-    min-width: 500px;
+    min-width: 660px;
     margin-top: 20px;
     .input-wrap {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
     .input-grp {
         display: flex;
         justify-content: space-between;
         .input-type {
-            width: 240px;
+            width: 325px;
         }
     }
 }
-.input-type {
+.input-type,
+.input-type-textarea {
     width: 100%;
+    height: 49px;
     border: none;
     background-color: $White;
     font-size: 15px;
     color: $DarkGrey;
+    &.input-type-textarea {
+        height: 166px;
+    }
 }
 .btn-info {
     background-color: $RobinsEggBlue;
@@ -34,4 +46,6 @@
     color: $White;
     font-size: 12px;
     text-transform: uppercase;
+    height: 55px;
+    width: 180px;
 }
