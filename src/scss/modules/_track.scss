@@ -1,12 +1,12 @@
 .section-track {
-    min-height: 239px;
+    padding: 4px 0;
     width: 100%;
     background-color: $RobinsEggBlue;
 }
 .cards {
     display: flex;
     flex-wrap: wrap;
-    padding: 93px 0 0 18px ;
+    padding: 80px 0 87px 20px;
     .icon-icon-clock,
     .icon-icon-heart,
     .icon-icon-star,
