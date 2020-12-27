@@ -1,0 +1,125 @@
+.footer {
+    position: relative;
+    min-height: 289px;
+    background-color: #141414;
+    padding: 17px 0;
+}
+.footer-cards {
+    position: relative;
+    font-size: 0;
+}
+.footer-cards-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+.footer-cards-wide {
+    width: 20%;
+}
+.footer-cards-padding {
+    margin: 77px 0;
+    padding-left: 25px
+}
+.footer-pirrol-position { //pozicija piroll
+    padding-left: 78px;
+    margin-top: 53px;
+}
+.pirrol-link {
+    position: relative;
+    font-size: 18px;
+    line-height: 72px;
+    letter-spacing: 0.7px;
+    color: $White;
+    &:hover {
+        color: $RobinsEggBlue;
+    }
+}
+.footer-copy,
+.footer-design,
+.footer-design-link,
+.span-info,
+.footer-li-link {
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 23px;
+    color: $Silver;
+    text-decoration: none;
+    .footer-design-link:hover{
+            color: $RobinsEggBlue;
+    }
+}
+.footer-li-link:hover {
+    color: $RobinsEggBlue;
+}
+.footer-copy,
+.footer-design,
+.span-info {
+    display: block;
+}
+.footer-social {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 0 37px;
+}
+.footer-social-padd {
+    padding-left: 75px;
+}
+@include breakpoint (tablet) {
+    .footer-cards-tablet {
+        text-align: center;
+    }
+    .footer-cards-item {
+        display: inline-block;
+        vertical-align: top;
+        width: 50%;
+    }
+    .footer-cards-wide {
+        width: 50%;
+    }
+    .footer-cards-padding {
+        padding-left: 0;
+    }
+    .footer-pirrol-position { 
+        padding-left: 0;
+        margin-top: 53px;
+    }
+    .footer-social-padd {
+        padding-left: 0;
+    }
+    .footer-social {
+        padding: 0 ;
+
+    }
+}
+
+@include breakpoint (phone) {
+    .footer-cards-tablet {
+        text-align: center;
+    }
+    .footer-cards-item {
+        display: inline-block;
+        vertical-align: top;
+        width: 100%;
+    }
+    .footer-cards-wide {
+        width: 100%;
+    }
+    .footer-cards-padding {
+        margin: 25px 0;
+        padding-left: 0;
+    }
+    .footer-pirrol-position { 
+        padding-left: 0;
+        margin-top: 53px;
+    }
+    .footer-social-padd {
+        padding-left: 0;
+    }
+    .footer-social {
+        padding: 0 ;
+
+    }
+}
