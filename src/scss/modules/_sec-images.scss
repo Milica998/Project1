@@ -1,6 +1,6 @@
 .sec-images {
     position: relative;
-    min-height: 300px;
+    background-color: $White;
     width: 100%;
 }
 .sec-images-container {
@@ -15,7 +15,7 @@
 }
 .images {
     @extend %bgImg;
-    padding-bottom: 100%;
+    padding-bottom: 57%;
 }
 @include breakpoint (tablet) {
     .sec-images-item {

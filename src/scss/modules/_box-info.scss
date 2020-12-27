@@ -1,0 +1,37 @@
+.box-info {
+    background-color: $WhiteSmoke;
+}
+.box-info-form,
+.box-info-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-wrap {
+    min-width: 500px;
+    margin-top: 20px;
+    .input-wrap {
+        margin-bottom: 15px;
+    }
+    .input-grp {
+        display: flex;
+        justify-content: space-between;
+        .input-type {
+            width: 240px;
+        }
+    }
+}
+.input-type {
+    width: 100%;
+    border: none;
+    background-color: $White;
+    font-size: 15px;
+    color: $DarkGrey;
+}
+.btn-info {
+    background-color: $RobinsEggBlue;
+    border: 2px solid $RobinsEggBlue;
+    color: $White;
+    font-size: 12px;
+    text-transform: uppercase;
+}
