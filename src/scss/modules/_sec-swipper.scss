@@ -2,7 +2,7 @@
     display: block;
     position: relative;
     width: 100%;
-    min-height: 510px;
+    //padding: 5px 0;
     background-color: $RobinsEggBlue;
 }
 .sec-swiper-information,
@@ -10,13 +10,13 @@
     display: block;
     font-size: 30px;
     color: $White;
-    line-height: 36px;
+    line-height: 40px;
     text-align: center;
-    max-width: 811px;
+    max-width: 799px;
     &.sec-swiper-span {
         font-size: 12px;
         letter-spacing: 1px;
         text-transform: uppercase;
-        margin-top: 18px;
+        margin-top: 11px;
     }
 }
