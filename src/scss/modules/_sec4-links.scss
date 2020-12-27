@@ -7,10 +7,11 @@
 .sec4-display {
     text-align: center;
     margin: 0 69px;
-    padding-top: 94px;
+    padding: 80px 2px 0;
 }
 .sec4-links-item {
-    padding: 15px 20px;
+    padding: 15px 33px;
+    margin-bottom: 17px;
 }
 .icon-icon-diamond,
 .icon-icon-archery,
@@ -31,6 +32,10 @@
     color: $EarieBlack;
     text-transform: uppercase;
     padding-top: 12px;
+}
+.p2-paragraph-links {
+    letter-spacing: 1px;
+    padding-top: 8px;
 }
 @include breakpoint (tablet) {
     .sec4-display {

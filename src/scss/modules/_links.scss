@@ -11,6 +11,7 @@
 .card-item {
     flex: 1 1 25%;
     max-width: 25%;
+    padding: 6px;
 }
 .card-link {
     display: block;
@@ -19,22 +20,28 @@
         transition: 1s ease-in-out;
     }
 }
+.icon-icon-heart {
+    font-size: 30px;
+    color: $BlackDar;
+}
 .card-link-background {
     @extend %bgImg;
-    padding-bottom: 100%;
+    padding-bottom: 92%;
 }
 .links-button {
     position: relative;
     display: block;
-    min-height: 50px;
-    background-color: yellow;
+    padding: 10px auto;
+    background-color: $WhiteSmoke;
     text-align: center;
+    cursor: pointer;
     &:hover {
         opacity: 0.4;
     }
 }
 .links-load {
     font-size: 12px;
+    line-height: 101px;
     letter-spacing: 1px;
     color: $SuvaGrey;
     text-decoration: none;
