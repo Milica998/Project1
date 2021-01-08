@@ -48,4 +48,8 @@
     text-transform: uppercase;
     height: 55px;
     width: 180px;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.3;
+    }
 }
