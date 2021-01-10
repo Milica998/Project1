@@ -14,17 +14,21 @@
         margin-bottom: 17px;
     }
 }
+.info-form {
+    max-width: 660px;
+}
 .form-wrap {
-    min-width: 660px;
+    width: 100%;
     margin-top: 20px;
     .input-wrap {
         margin-bottom: 25px;
+        padding-right: 7px;
     }
     .input-grp {
         display: flex;
         justify-content: space-between;
         .input-type {
-            width: 325px;
+            max-width: 325px;
         }
     }
 }
@@ -51,5 +55,13 @@
     cursor: pointer;
     &:hover {
         opacity: 0.3;
+    }
+}
+
+@include breakpoint (phone) {
+    .form-wrap {
+        .input-grp {
+            display: block;
+        }
     }
 }
